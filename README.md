@@ -46,3 +46,15 @@ https://github.com/gurnitha/2022-django-blog-russian
         modified:   README.md
         new file:   blog/migrations/0001_initial.py
         modified:   blog/models.py
+
+
+#### 5. Registration of models in the admin panel
+
+        λ pip install django-ckeditor
+        λ python -m pip install django-debug-toolbar
+        λ python -m pip install Pillow
+
+        modified:   README.md
+        modified:   blog/admin.py
+        modified:   siteblog/settings.py
+        modified:   siteblog/urls.py
