@@ -23,6 +23,8 @@ class Category(models.Model):
         return self.title
 
     class Meta:
+        verbose_name = 'Category(ю)'
+        verbose_name_plural = 'Categories'
         ordering = ['title']
 
 
@@ -34,6 +36,8 @@ class Tag(models.Model):
         return self.title
 
     class Meta:
+        verbose_name = 'Tag'
+        verbose_name_plural = 'Tags'
         ordering = ['title']
 
 
@@ -42,9 +46,9 @@ class Post(models.Model):
     slug = models.SlugField(max_length=255, verbose_name='Url', unique=True)
     author = models.CharField(max_length=100)
     content = models.TextField(blank=True)
-    created_at = models.DateTimeField(auto_now_add=True, verbose_name='Опубликовано')
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name='Published')
     photo = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
-    views = models.IntegerField(default=0, verbose_name='Кол-во просмотров')
+    views = models.IntegerField(default=0, verbose_name='Number of views')
     category = models.ForeignKey(Category, on_delete=models.PROTECT, related_name='posts')
     tags = models.ManyToManyField(Tag, blank=True, related_name='posts')
 
@@ -52,4 +56,6 @@ class Post(models.Model):
         return self.title
 
     class Meta:
+        verbose_name = 'Post'
+        verbose_name_plural = 'Posts'
         ordering = ['-created_at']

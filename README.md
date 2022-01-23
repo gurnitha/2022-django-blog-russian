@@ -58,3 +58,12 @@ https://github.com/gurnitha/2022-django-blog-russian
         modified:   blog/admin.py
         modified:   siteblog/settings.py
         modified:   siteblog/urls.py
+
+
+#### 6. Setting up the admin panel
+
+        modified:   README.md
+        modified:   blog/admin.py
+        new file:   blog/migrations/0002_auto_20220123_2125.py
+        new file:   blog/migrations/0003_auto_20220123_2133.py
+        modified:   blog/models.py
