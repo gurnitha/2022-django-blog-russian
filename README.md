@@ -29,5 +29,14 @@ https://github.com/gurnitha/2022-django-blog-russian
         modified:   siteblog/urls.py
 
 
+#### 3. Transferring the template to the project
 
+        modified:   README.md
+        new file:   blog/templates/blog/index.html
+        modified:   blog/views.py
+        modified:   siteblog/settings.py
+        new file:   siteblog/static/css/bootstrap.css
+        ...
+        new file:   siteblog/static/style.css
+        new file:   templates/base.html
 
