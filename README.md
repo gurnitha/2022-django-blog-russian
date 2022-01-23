@@ -21,3 +21,13 @@ https://github.com/gurnitha/2022-django-blog-russian
         new file:   siteblog/wsgi.py
 
 
+#### 2. Create Homepage view/controller and urls
+
+        modified:   README.md
+        new file:   blog/urls.py
+        modified:   blog/views.py
+        modified:   siteblog/urls.py
+
+
+
+
