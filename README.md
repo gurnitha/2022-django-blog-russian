@@ -67,3 +67,17 @@ https://github.com/gurnitha/2022-django-blog-russian
         new file:   blog/migrations/0002_auto_20220123_2125.py
         new file:   blog/migrations/0003_auto_20220123_2133.py
         modified:   blog/models.py
+
+
+#### 7. Menu template tag
+
+        modified:   README.md
+        modified:   blog/admin.py
+        new file:   blog/migrations/0004_auto_20220123_2139.py
+        modified:   blog/models.py
+        new file:   blog/templates/blog/category.html
+        new file:   blog/templates/blog/menu_tpl.html
+        new file:   blog/templatetags/__init__.py
+        new file:   blog/templatetags/menu.py
+        modified:   blog/urls.py
+        modified:   blog/views.py
