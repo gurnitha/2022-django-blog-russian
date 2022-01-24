@@ -142,3 +142,11 @@ https://github.com/gurnitha/2022-django-blog-russian
         new file:   blog/templates/blog/popular_posts_tpl.html
         modified:   blog/templates/blog/single.html
         new file:   blog/templatetags/sidebar.py
+
+
+#### 15. Tag Cloud
+
+        modified:   README.md
+        modified:   blog/templates/blog/single.html
+        new file:   blog/templates/blog/tags_tpl.html
+        modified:   blog/templatetags/sidebar.py
