@@ -92,3 +92,13 @@ https://github.com/gurnitha/2022-django-blog-russian
         new file:   media/photos/2022/01/24/post-image1.jpg
         new file:   media/photos/2022/01/24/post-image3.jpg
         new file:   media/photos/2022/01/24/post-image9.jpg
+
+
+#### 9. Output of articles on the main page
+
+        modified:   README.md
+        modified:   blog/admin.py
+        modified:   blog/models.py
+        modified:   blog/templates/blog/index.html
+        modified:   blog/urls.py
+        modified:   blog/views.py

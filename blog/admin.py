@@ -31,7 +31,7 @@ class PostAdmin(admin.ModelAdmin):
             return mark_safe(f'<img src="{obj.photo.url}" width="50">')
         return '-'
 
-    get_photo.short_description = 'Photo'
+    get_photo.short_description = 'Фото'
 
 
 class CategoryAdmin(admin.ModelAdmin):
