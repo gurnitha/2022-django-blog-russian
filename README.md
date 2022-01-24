@@ -118,3 +118,11 @@ https://github.com/gurnitha/2022-django-blog-russian
         modified:   blog/urls.py
         modified:   blog/views.py
         new file:   media/photos/2022/01/24/post-image5.jpg
+
+
+#### 12. View individual article
+
+        modified:   README.md
+        modified:   blog/models.py
+        modified:   blog/urls.py
+        modified:   blog/views.py
