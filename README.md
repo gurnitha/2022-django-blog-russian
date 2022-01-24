@@ -81,3 +81,14 @@ https://github.com/gurnitha/2022-django-blog-russian
         new file:   blog/templatetags/menu.py
         modified:   blog/urls.py
         modified:   blog/views.py
+
+
+#### 8. Highlight the active menu item
+
+        modified:   blog/admin.py
+        modified:   blog/models.py
+        modified:   blog/urls.py
+        new file:   media/photos/2022/01/24/blog-image2.jpg
+        new file:   media/photos/2022/01/24/post-image1.jpg
+        new file:   media/photos/2022/01/24/post-image3.jpg
+        new file:   media/photos/2022/01/24/post-image9.jpg

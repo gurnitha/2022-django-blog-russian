@@ -27,7 +27,7 @@ class Category(models.Model):
         return reverse('category', kwargs={"slug": self.slug})
 
     class Meta:
-        verbose_name = 'Category(ю)'
+        verbose_name = 'Category'
         verbose_name_plural = 'Categories'
         ordering = ['title']
 
