@@ -102,3 +102,10 @@ https://github.com/gurnitha/2022-django-blog-russian
         modified:   blog/templates/blog/index.html
         modified:   blog/urls.py
         modified:   blog/views.py
+
+
+#### 10. Pagination for articles
+
+        modified:   README.md
+        modified:   blog/templates/blog/index.html
+        modified:   blog/views.py
